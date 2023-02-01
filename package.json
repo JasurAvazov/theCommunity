@@ -38,6 +38,7 @@
     "gulp-webpcss": "^1.1.1",
     "gulp-zip": "^5.1.0",
     "sass": "^1.49.0",
+    "smoothscroll-for-websites": "^1.4.10",
     "swiper": "^7.4.1",
     "webp-converter": "2.2.3",
     "webpack": "^5.67.0",
