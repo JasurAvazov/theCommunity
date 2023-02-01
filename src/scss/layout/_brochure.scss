@@ -1,0 +1,88 @@
+.brochure{
+    overflow-x: hidden;
+    .container{
+        padding: 80px 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &-left{
+        width: 535px;
+    }
+    &-right{
+        width: calc(100% - 570px);
+    }
+    &-books{
+        width: 100%;
+        height: 100%;
+        img{
+            width: 1000px;
+        }
+    }
+    &-subtitle{
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 116.02%;
+        color: #717F3A;
+        text-transform: uppercase;
+        margin-bottom: 24px;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 70px;
+        p{
+            color: #74787F;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 96.5%;
+            &::before{
+                content: '\B7';
+                margin-right: 8px;
+                color: #717F3A;
+            }
+        }
+    }
+    form{
+        width: 100%;
+        max-width: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 10px;
+        input{
+            width: 100%;
+            border: 0;
+            background-color: #F2F2F2;
+            padding: 15px;
+            border-radius: 10px;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 19px;
+            caret-color: black;
+            position: relative;
+            
+            &::placeholder{
+                color: #BBBCBE;
+            }
+            &:nth-last-child(1){
+                margin-top: 10px;
+                background-color: #717F3A;
+                font-weight: 600;
+                font-size: 22px;
+                line-height: 26px;
+                color: white;
+                cursor: pointer;
+            }
+        }
+    }
+    &-title{
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 116.02%;
+        color: #343434;
+        margin-bottom: 15px;
+    }
+}

@@ -9,7 +9,7 @@ export function init() {
         watchSlidesProgress: true,
         effect: 'fade',
         effect: 'cards',
-        initialSlide: 1,
+        initialSlide: 0,
         pagination: {
             el: ".swiper-pagination",
         },

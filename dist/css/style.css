@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 @font-face {
   font-family: Rubik;
   font-display: swap;
@@ -62,6 +64,15 @@
   top: 0;
   left: 0;
   z-index: 50;
+  -webkit-transition: 0.3s ease-out;
+  -o-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+}
+
+.header.hide {
+  -webkit-transform: translateY(-100%);
+      -ms-transform: translateY(-100%);
+          transform: translateY(-100%);
 }
 
 .header-logo {
@@ -440,7 +451,7 @@
 }
 
 .about .container {
-  padding: 80px 15px;
+  padding: 120px 15px 160px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -567,6 +578,143 @@
   width: 22px;
   height: 22px;
   background-color: #717F3A;
+}
+
+.brochure {
+  overflow-x: hidden;
+}
+
+.brochure .container {
+  padding: 80px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.brochure-left {
+  width: 535px;
+}
+
+.brochure-right {
+  width: calc(100% - 570px);
+}
+
+.brochure-books {
+  width: 100%;
+  height: 100%;
+}
+
+.brochure-books img {
+  width: 1000px;
+}
+
+.brochure-subtitle {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 116.02%;
+  color: #717F3A;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.brochure ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.brochure ul p {
+  color: #74787F;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 96.5%;
+}
+
+.brochure ul p::before {
+  content: "·";
+  margin-right: 8px;
+  color: #717F3A;
+}
+
+.brochure form {
+  width: 100%;
+  max-width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 10px;
+}
+
+.brochure form input {
+  width: 100%;
+  border: 0;
+  background-color: #F2F2F2;
+  padding: 15px;
+  border-radius: 10px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  caret-color: black;
+  position: relative;
+}
+
+.brochure form input::-webkit-input-placeholder {
+  color: #BBBCBE;
+}
+
+.brochure form input::-moz-placeholder {
+  color: #BBBCBE;
+}
+
+.brochure form input:-ms-input-placeholder {
+  color: #BBBCBE;
+}
+
+.brochure form input::-ms-input-placeholder {
+  color: #BBBCBE;
+}
+
+.brochure form input::placeholder {
+  color: #BBBCBE;
+}
+
+.brochure form input:nth-last-child(1) {
+  margin-top: 10px;
+  background-color: #717F3A;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  color: white;
+  cursor: pointer;
+}
+
+.brochure-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 116.02%;
+  color: #343434;
+  margin-bottom: 15px;
 }
 
 * {

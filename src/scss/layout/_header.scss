@@ -7,6 +7,10 @@
     top: 0;
     left: 0;
     z-index: 50;
+    transition: .3s ease-out;
+    &.hide{
+        transform: translateY(-100%);
+    }
     &-logo{
         color: #717F3A;
         text-transform: uppercase;

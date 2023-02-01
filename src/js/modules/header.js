@@ -1,8 +1,8 @@
 export function init() {
 
     // body paddingTop
-    const header = document.querySelector('.header').offsetHeight + 25
-    document.querySelector('.intro').style.marginTop = header+'px'
+    const headerHeight = document.querySelector('.header').offsetHeight
+    document.querySelector('.intro').style.marginTop = headerHeight+25+'px'
 
     // header btns
     const headerBtns = document.querySelectorAll('.header-btn')
@@ -14,4 +14,28 @@ export function init() {
             el.classList.add('active')
         })
     })
+
+
+    let scrollBefore = 300;
+    const header = document.querySelector('.header')
+    window.addEventListener('scroll', (e) => {
+        const scrolled = window.scrollY;
+        if (scrolled > 300){
+            if(scrollBefore > scrolled){
+                if(header.classList.contains('hide')){
+                    header.classList.remove('hide')
+                }
+                scrollBefore = scrolled;
+            }else{
+                scrollBefore = scrolled;
+                if(!header.classList.contains('hide')){
+                    header.classList.add('hide')
+                }
+            }
+        }
+    })
+
+    
+
+
 }

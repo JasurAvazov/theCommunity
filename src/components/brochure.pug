@@ -1,0 +1,23 @@
+mixin brochure()
+    section.brochure
+        .container
+            .brochure-left 
+                h3.brochure-subtitle All in one
+                h2.brochure-title Brochure
+                ul 
+                    li 
+                        p Masterplan
+                    li 
+                        p Lifestyle
+                    li 
+                        p Floor Plans
+                    li 
+                        p Galery
+                form(action="/action_page.php")
+                    input(type="text" id="fname" placeholder="Name")
+                    input(type="tel" id="lname" placeholder="Phone number")
+                    input(type="email" id="lname" placeholder="Gmail")
+                    input(type="submit" value="Download")
+            .brochure-right 
+                .brochure-books 
+                    img(src="@img/books.png", alt="", draggable="false")
