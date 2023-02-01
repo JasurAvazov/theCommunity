@@ -1,4 +1,5 @@
 include components/header 
+include components/intro 
 
 doctype html
 html(lang="en")
@@ -10,6 +11,6 @@ html(lang="en")
         title Community
     body#body 
         +header 
-        .wrapper 
-
+        main 
+            +intro
         script(src="js/app.min.js") 
