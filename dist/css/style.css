@@ -1507,7 +1507,50 @@
   font-weight: 300;
   font-size: 14px;
   line-height: 17px;
-  margin-bottom: 42px;
+  margin-bottom: 30px;
+}
+
+.popup-brochure-socials {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.popup-brochure-socials a {
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.popup-brochure-socials a circle,
+.popup-brochure-socials a .whats {
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.popup-brochure-socials a:hover circle {
+  fill: #37BBFE;
+}
+
+.popup-brochure-socials a:hover .whats {
+  fill: #5BD066;
 }
 
 .popup-brochure-format {
@@ -1596,7 +1639,15 @@
   border-radius: 0 30px 30px 0;
 }
 
-.popup-brochure-right img {
+.popup-brochure-right .bg {
+  width: 120px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background-color: red;
+}
+
+.popup-brochure-right .banner {
   width: 101%;
   height: 101%;
   -o-object-fit: cover;
