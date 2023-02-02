@@ -13,10 +13,12 @@
     }
     &-logo{
         color: #717F3A;
-        text-transform: uppercase;
         font-weight: 700;
         font-size: 30px;
         line-height: 36px;
+        img{
+            max-height: 50px;
+        }
     }
     .container{
         padding: 30px 15px;

@@ -69,10 +69,13 @@
 
 .header-logo {
   color: #717F3A;
-  text-transform: uppercase;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
+}
+
+.header-logo img {
+  max-height: 50px;
 }
 
 .header .container {
