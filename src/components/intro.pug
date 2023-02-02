@@ -1,23 +1,12 @@
 mixin intro()
     section.intro 
         .container
-            .intro-left 
-                h1.intro-text Premium apartments with a brand new <br>
-                    | co-living concept - 
-                    <span>The Community</span>
-                .intro__about-list
-                    p.intro-text AED 455 888<br> <span>Starting price</span>
-                    p.intro-text 1, 2, 3<br> <span>Bedrooms</span>
-                    p.intro-text 90 meters<br> <span>Dubai's longest pool</span>
-                .intro-left__btns
-                    button(type="button").popup-consultation-open Enquire
-                    button(type="button").popup-brochure-open Learn More
-            .intro-right
-                .flip-card
-                    .flip-card-inner
-                        .flip-card-front
-                            img(src="@img/intro.png" alt="")
-                        .flip-card-back
-                            img(src="@img/intro.png" alt="")
-                            .toning 
-                                p The Community is a premium hotel-style living with a novel approach to daily activities. Following the success of The Community JVT, the project is envisioned as a fully integrated lifestyle community offering affordable, yet sociable housing solutions.
+            .intro-inner
+                img(src="@img/intro.png", alt="", draggable="false")
+                .intro-left 
+                    h1.intro-title.intro-text SET THE STANDARDS WITH A-01 BY ALDAR
+                    ul.intro-btns
+                        li 
+                            button(type="button").popup-consultation-open Learn more
+                        li 
+                            button(type="button").popup-brochure-open Download brochure

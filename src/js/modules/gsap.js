@@ -8,14 +8,7 @@ export function init(){
     // intro
 
     gsap.utils.toArray(".intro-left").forEach((section) => {
-        const tl = gsap.timeline({
-            // scrollTrigger: {
-            //     trigger: section,
-            //     start: "top bottom",
-            //     end: "bottom top",
-            //     markers: true,
-            // },
-        });
+        const tl = gsap.timeline({});
         tl.add("start")
             .from(section.querySelectorAll(".intro-text"), {
                 delay: .2,
