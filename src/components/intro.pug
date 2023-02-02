@@ -10,8 +10,8 @@ mixin intro()
                     p.intro-text 1, 2, 3<br> <span>Bedrooms</span>
                     p.intro-text 90 meters<br> <span>Dubai's longest pool</span>
                 .intro-left__btns
-                    button(type="button") Enquire
-                    button(type="button") Learn More
+                    button(type="button").popup-consultation-open Enquire
+                    button(type="button").popup-consultation-open Learn More
             .intro-right
                 .flip-card
                     .flip-card-inner
@@ -21,9 +21,3 @@ mixin intro()
                             img(src="@img/intro.png" alt="")
                             .toning 
                                 p The Community is a premium hotel-style living with a novel approach to daily activities. Following the success of The Community JVT, the project is envisioned as a fully integrated lifestyle community offering affordable, yet sociable housing solutions.
-            .intro-scroll 
-                .intro-scroll__svg
-                    <svg width="12" height="14" viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M5.43431 13.5657C5.74673 13.8781 6.25327 13.8781 6.56569 13.5657L11.6569 8.47449C11.9693 8.16207 11.9693 7.65554 11.6569 7.34312C11.3444 7.0307 10.8379 7.0307 10.5255 7.34312L6 11.8686L1.47452 7.34312C1.1621 7.0307 0.655565 7.0307 0.343146 7.34312C0.0307264 7.65554 0.0307264 8.16207 0.343146 8.47449L5.43431 13.5657ZM5.2 0.599976L5.2 13H6.8L6.8 0.599976H5.2Z" fill="#343434"/>
-                    </svg>
-                p Scroll down
