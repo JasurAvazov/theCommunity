@@ -12,6 +12,7 @@ export function init() {
         initialSlide: 0,
         pagination: {
             el: ".swiper-pagination",
+            clickable: true,
         },
     });
 }
