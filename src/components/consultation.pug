@@ -1,0 +1,25 @@
+mixin consultation()
+    section.consultation 
+        .container
+            .consultation-left 
+                .consultation-img__side
+                    img(src="@img/intro.png", alt="")
+                .consultation-img__main
+                    img(src="@img/intro.png", alt="")
+                .consultation-img__side
+                    img(src="@img/intro.png", alt="")
+            .consultation-right
+                h3.consultation-subtitle All in one
+                h2.consultation-title Brochure
+                ul 
+                    li 
+                        p Our specialists will contact you 
+                    li 
+                        p Our experts will answer any of your questions
+                    li 
+                        p You will get all PDFs 
+                form(action="/action_page.php")
+                    input(type="text" id="fname" placeholder="Name")
+                    input(type="tel" id="lname" placeholder="Phone number")
+                    input(type="email" id="lname" placeholder="Gmail")
+                    input(type="submit" value="Download")
