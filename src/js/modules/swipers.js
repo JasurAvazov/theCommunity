@@ -1,8 +1,8 @@
-import Swiper, { EffectCards, EffectFade, Navigation, Pagination } from 'swiper';
+import Swiper, { Autoplay, EffectCards, EffectFade, Navigation, Pagination } from 'swiper';
 
 export function init() {
     const swiper = new Swiper('.aboutSwiper',{
-        modules: [EffectFade, EffectCards, Pagination],
+        modules: [EffectFade, EffectCards, Pagination, Autoplay],
         slidesPerView: 1,
         slidesPerGroup: 1,
         speed: 600,
@@ -14,5 +14,9 @@ export function init() {
             el: ".swiper-pagination",
             clickable: true,
         },
+        autoplay: {
+            disableOnInteraction: false,
+            delay: 2000
+        }
     });
 }
