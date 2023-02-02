@@ -1,6 +1,7 @@
 import * as functions from "./modules/functions.js";
 import * as swipers from "./modules/swipers.js";
 import * as header from "./modules/header.js";
+import * as gsap from "./modules/gsap.js";
 import SmoothScroll from "smoothscroll-for-websites";
 
 SmoothScroll({
@@ -9,8 +10,9 @@ SmoothScroll({
     keyboardSupport: true,
     arrowScroll: 100,
     touchpadSupport: true,
-  });
+});
 
 functions.isWebp();
 header.init();
 swipers.init();
+gsap.init();

@@ -4,29 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.min.css?_v=20230202110532">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20230202110532">
+    <link rel="stylesheet" href="css/style.min.css?_v=20230202112246">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20230202112246">
     <title>Community</title>
   </head>
   <body id="body"> 
     <header class="header">
       <div class="container"><a class="header-logo" href="#">LOGO</a>
         <ul> 
-          <li> 
-            <button class="header-btn active" type="button">Home</button>
-          </li>
-          <li> 
-            <button class="header-btn" type="button">District</button>
-          </li>
-          <li> 
-            <button class="header-btn" type="button">Developer</button>
-          </li>
-          <li> 
-            <button class="header-btn" type="button">Brochure</button>
-          </li>
-          <li> 
-            <button class="header-btn" type="button">Consultation</button>
-          </li>
+          <li> <a class="header-btn active" href="#">Home</a></li>
+          <li> <a class="header-btn" href="#District">District</a></li>
+          <li> <a class="header-btn" href="#Brochure">Brochure</a></li>
+          <li> <a class="header-btn" href="#Developer">Developer</a></li>
+          <li> <a class="header-btn" href="#Consultation">Consultation</a></li>
         </ul><a class="header-number" href="tel:998909999999">+998 90 999 99 99</a>
       </div>
     </header>
@@ -117,7 +107,7 @@
           </div>
         </div>
       </section>
-      <section class="about"> 
+      <section class="about" id="District"> 
         <div class="container"> 
           <div class="about-left"> 
             <div class="swiper aboutSwiper">
@@ -137,7 +127,7 @@
           </div>
         </div>
       </section>
-      <section class="brochure">
+      <section class="brochure" id="Brochure">
         <div class="container">
           <div class="brochure-left"> 
             <h3 class="brochure-subtitle">All in one</h3>
@@ -179,7 +169,7 @@
           </div>
         </div>
       </section>
-      <section class="developer"> 
+      <section class="developer" id="Developer"> 
         <div class="container">
           <div class="developer-left"> 
             <h3 class="developer-subtitle">Established in 2010 </h3>
@@ -190,7 +180,7 @@
           <div class="developer-right"><picture><source srcset="img/intro.webp" type="image/webp"><img src="img/intro.png" alt="" draggable="false"/></picture></div>
         </div>
       </section>
-      <section class="consultation"> 
+      <section class="consultation" id="Consultation"> 
         <div class="container">
           <div class="consultation-left"> 
             <div class="consultation-img__side"><picture><source srcset="img/intro.webp" type="image/webp"><img src="img/intro.png" alt=""/></picture></div>
@@ -198,8 +188,8 @@
             <div class="consultation-img__side"><picture><source srcset="img/intro.webp" type="image/webp"><img src="img/intro.png" alt=""/></picture></div>
           </div>
           <div class="consultation-right">
-            <h3 class="consultation-subtitle">All in one</h3>
-            <h2 class="consultation-title">Brochure</h2>
+            <h3 class="consultation-subtitle">For free</h3>
+            <h2 class="consultation-title">Get Consultation</h2>
             <ul> 
               <li> 
                 <p>Our specialists will contact you </p>
@@ -215,7 +205,7 @@
               <input type="text" id="fname" placeholder="Name"/>
               <input type="tel" id="lname" placeholder="Phone number"/>
               <input type="email" id="lname" placeholder="Gmail"/>
-              <input type="submit" value="Download"/>
+              <input type="submit" value="Send"/>
             </form>
           </div>
         </div>
@@ -225,10 +215,10 @@
       <div class="container">
         <ul class="footer-nav">
           <li><a href="#">Home</a></li>
-          <li><a href="#">District</a></li>
-          <li><a href="#">Developer</a></li>
-          <li><a href="#">Brochure</a></li>
-          <li><a href="#">Consultation </a></li>
+          <li><a href="#District">District</a></li>
+          <li><a href="#Brochure">Brochure</a></li>
+          <li><a href="#Developer">Developer</a></li>
+          <li><a href="#Consultation">Consultation </a></li>
         </ul>
         <p class="footer-number"><span>+971 56  xxx-xx-xx</span> Show number</p>
         <ul class="footer-social"> 
@@ -241,6 +231,6 @@
         </ul>
       </div>
     </footer>
-    <script src="js/app.min.js?_v=20230202110532"> </script>
+    <script src="js/app.min.js?_v=20230202112246"> </script>
   </body>
 </html>

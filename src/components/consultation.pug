@@ -1,5 +1,5 @@
 mixin consultation()
-    section.consultation 
+    section.consultation#Consultation 
         .container
             .consultation-left 
                 .consultation-img__side
@@ -9,8 +9,8 @@ mixin consultation()
                 .consultation-img__side
                     img(src="@img/intro.png", alt="")
             .consultation-right
-                h3.consultation-subtitle All in one
-                h2.consultation-title Brochure
+                h3.consultation-subtitle For free
+                h2.consultation-title Get Consultation
                 ul 
                     li 
                         p Our specialists will contact you 
@@ -22,4 +22,4 @@ mixin consultation()
                     input(type="text" id="fname" placeholder="Name")
                     input(type="tel" id="lname" placeholder="Phone number")
                     input(type="email" id="lname" placeholder="Gmail")
-                    input(type="submit" value="Download")
+                    input(type="submit" value="Send")
