@@ -470,7 +470,8 @@
   line-height: 116.02%;
   text-transform: uppercase;
   margin-bottom: 24px;
-  color: #2B3845;
+  color: #717f3a;
+  display: block;
 }
 
 .about-title {
@@ -485,8 +486,21 @@
   font-weight: 300;
   font-size: 24px;
   line-height: 130.5%;
-  color: #74787F;
+  color: #74787f;
   margin-bottom: 45px;
+}
+
+.about-p span {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 177%;
+  color: #717f3a;
+  text-decoration: underline;
+  width: 100%;
+  cursor: pointer;
+  margin-left: 10px;
+  position: relative;
+  bottom: 2px;
 }
 
 .about-btn {
@@ -501,12 +515,35 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #2B3845;
+  background-color: #717f3a;
   color: white;
   font-weight: 600;
   font-size: 22px;
   line-height: 26px;
   border-radius: 10px;
+}
+
+.about-btn__mob {
+  display: none;
+  width: 100%;
+  max-width: 335px;
+  padding: 15px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #717f3a;
+  color: white;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  border-radius: 10px;
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+  margin-top: 100px;
 }
 
 .about .swiper {
@@ -518,7 +555,6 @@
 
 .about .swiper-slide {
   overflow: hidden;
-  border-radius: 10px;
 }
 
 .about .swiper-slide img {
@@ -528,6 +564,7 @@
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+  border-radius: 10px;
 }
 
 .about .swiper-pagination {
@@ -556,7 +593,7 @@
 .about .swiper-pagination-bullet-active {
   width: 22px;
   height: 22px;
-  background-color: #2B3845;
+  background-color: #717f3a;
 }
 
 .brochure {
@@ -739,12 +776,7 @@
 }
 
 .brochure-form-btn {
-  position: relative;
-  left: 50%;
   width: 100%;
-  -webkit-transform: translate(-50%, 0);
-      -ms-transform: translate(-50%, 0);
-          transform: translate(-50%, 0);
 }
 
 .brochure-form-item {
@@ -1962,6 +1994,14 @@ a {
 }
 
 @media (max-width: 1400px) {
+  .about-left {
+    width: calc(100% - 540px);
+  }
+
+  .brochure .container {
+    padding: 0 15px;
+  }
+
   .location .container {
     margin-right: 20px;
   }
@@ -2005,6 +2045,10 @@ a {
     display: none;
   }
 
+  .about-right {
+    width: 380px;
+  }
+
   .developer-left {
     width: calc(100% - 590px);
     max-width: 650px;
@@ -2041,13 +2085,76 @@ a {
     text-align: center !important;
   }
 
+  .about .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 60px 20px;
+  }
+
+  .about-left {
+    width: 100%;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+
+  .about-right {
+    width: 100%;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+
+  .about-subtitle {
+    display: none;
+  }
+
+  .about-title {
+    text-align: center;
+  }
+
+  .about-title span {
+    color: #717f3a;
+  }
+
+  .about-p {
+    text-align: center;
+  }
+
+  .about-btn {
+    display: none;
+  }
+
+  .about-btn__mob {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .about .swiper {
+    height: 100%;
+  }
+
+  .about .swiper-slide {
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    opacity: 0;
+  }
+
+  .about .swiper-slide.swiper-slide-active {
+    opacity: 1;
+  }
+
   .brochure {
     min-height: 100vh;
     position: relative;
   }
 
   .brochure .container {
-    padding: 80px 0 0;
+    padding: 0;
     margin-left: 0;
     margin-right: 0;
     max-width: 100%;
@@ -2123,6 +2230,18 @@ a {
     font-size: 17px;
     line-height: 21px;
     max-width: 100%;
+  }
+
+  .brochure-form-btn {
+    max-width: 355px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    width: 100%;
+    -webkit-transform: translate(-50%, 0);
+        -ms-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
   }
 
   .brochure-form-item {
@@ -2377,6 +2496,32 @@ a {
 }
 
 @media (max-width: 576px) {
+  .about-title {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .about-p {
+    font-size: 16px;
+    line-height: 177%;
+    margin-bottom: 10px;
+  }
+
+  .about-p span {
+    font-size: 16px;
+    line-height: 177%;
+  }
+
+  .about-btn__mob {
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 80px;
+  }
+
+  .brochure-left {
+    padding: 50px 20px 80px;
+  }
+
   .brochure-books-mob {
     height: 350px;
   }
