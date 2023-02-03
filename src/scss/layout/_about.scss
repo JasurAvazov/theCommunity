@@ -55,11 +55,6 @@
       font-size: 32px;
       line-height: 38px;
     }
-    span {
-      @include media(992) {
-        color: #717f3a;
-      }
-    }
   }
   &-p {
     font-weight: 300;
@@ -79,7 +74,7 @@
       font-weight: 400;
       font-size: 18px;
       line-height: 177%;
-      color: #717f3a;
+      color: #37485A;
       text-decoration: underline;
       width: 100%;
       cursor: pointer;
@@ -98,7 +93,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #717f3a;
+    background-color: #37485A;
     color: white;
     font-weight: 600;
     font-size: 22px;
@@ -115,7 +110,7 @@
     padding: 15px;
     justify-content: center;
     align-items: center;
-    background-color: #717f3a;
+    background-color: #37485A;
     color: white;
     font-weight: 600;
     font-size: 22px;
@@ -173,7 +168,7 @@
         &-active {
           width: 22px;
           height: 22px;
-          background-color: #717f3a;
+          background-color: #37485A;
         }
       }
     }

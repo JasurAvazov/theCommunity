@@ -2,7 +2,8 @@ import Swiper, { Autoplay, EffectCards, EffectFade, Navigation, Pagination } fro
 
 export function init() {
 
-    // about
+  // about
+
   if (window.matchMedia("(max-width: 992px)").matches) {
     const swiper = new Swiper('.aboutSwiper',{
       modules: [Pagination, Autoplay],

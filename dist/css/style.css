@@ -494,7 +494,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 177%;
-  color: #717f3a;
+  color: #37485A;
   text-decoration: underline;
   width: 100%;
   cursor: pointer;
@@ -515,7 +515,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #717f3a;
+  background-color: #37485A;
   color: white;
   font-weight: 600;
   font-size: 22px;
@@ -534,7 +534,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #717f3a;
+  background-color: #37485A;
   color: white;
   font-weight: 600;
   font-size: 22px;
@@ -593,7 +593,7 @@
 .about .swiper-pagination-bullet-active {
   width: 22px;
   height: 22px;
-  background-color: #717f3a;
+  background-color: #37485A;
 }
 
 .brochure {
@@ -2113,10 +2113,6 @@ a {
 
   .about-title {
     text-align: center;
-  }
-
-  .about-title span {
-    color: #717f3a;
   }
 
   .about-p {
