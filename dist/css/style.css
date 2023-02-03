@@ -1893,6 +1893,10 @@ a {
 }
 
 @media (max-width: 1200px) {
+  .intro-title {
+    font-size: 52px;
+  }
+
   .developer-left {
     width: calc(100% - 590px);
     max-width: 650px;
@@ -1908,6 +1912,19 @@ a {
 }
 
 @media (max-width: 992px) {
+  .intro-left {
+    width: 90%;
+  }
+
+  .intro-btns li {
+    max-width: 250px;
+  }
+
+  .intro-btns button {
+    font-size: 18px;
+    padding: 11px;
+  }
+
   .brochure {
     min-height: 100vh;
     position: relative;
@@ -2204,6 +2221,26 @@ a {
 }
 
 @media (max-width: 768px) {
+  .intro-left {
+    width: 100%;
+    background: #2b384590;
+  }
+
+  .intro-title {
+    font-size: 44px;
+    text-align: center;
+  }
+
+  .intro-btns {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .intro-btns li {
+    max-width: 300px;
+  }
+
   .brochure-books-mob {
     height: 550px;
   }
@@ -2283,5 +2320,16 @@ a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+}
+
+@media (max-width: 440px) {
+  .intro-left {
+    padding: 30px;
+  }
+
+  .intro-title {
+    font-size: 32px;
+    margin-bottom: 30px;
   }
 }

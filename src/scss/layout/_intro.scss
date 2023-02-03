@@ -13,6 +13,16 @@
         padding: 60px 50px;
         z-index: 1;
         background: linear-gradient(88.55deg, #2B3845 1.37%, rgba(0, 0, 0, 0) 101.8%);
+        @include media(992){
+            width: 90%;
+        }
+        @include media(768){
+            width: 100%;
+            background: #2b384590;
+        }
+        @include media(440){
+            padding: 30px;
+        }
     }
     &-title{
         font-weight: 700;
@@ -21,6 +31,17 @@
         color: white;
         margin-bottom: 45px;
         font-family: "Montserrat",sans-serif;
+        @include media(1200){
+            font-size: 52px;
+        }
+        @include media(768){
+            font-size: 44px;
+            text-align: center;
+        }
+        @media (max-width: 440px){
+            font-size: 32px;
+            margin-bottom: 30px;
+        }
     }
     &-btns{
         display: flex;
@@ -29,9 +50,18 @@
         justify-content: center;
         gap: 20px;
         list-style: none;
+        @include media(768){
+            align-items: center;
+        }
         li{
             max-width: 307px;
             width: 100%;
+            @include media(992){
+                max-width: 250px;
+            }
+            @include media(768){
+                max-width: 300px;
+            }
             &:nth-last-child(1){
                 button{
                     background-color: transparent;
@@ -49,6 +79,10 @@
             padding: 15px;
             border-radius: 15px;
             border: 1px solid white;
+            @include media(992){
+                font-size: 18px;
+                padding: 11px;
+            }
         }
     }
     &-inner{
