@@ -19,6 +19,9 @@ body{
     scroll-behavior: smooth;
     overscroll-behavior: none;
 }
+body.modal-open{
+    overflow: hidden;
+}
 *::selection{
     color: inherit;
     background-color: #2B384579;

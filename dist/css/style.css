@@ -470,7 +470,7 @@
   line-height: 116.02%;
   text-transform: uppercase;
   margin-bottom: 24px;
-  color: #717f3a;
+  color: #343434;
   display: block;
 }
 
@@ -1474,7 +1474,7 @@
 .popup-consultation-close {
   width: 44px;
   height: 44px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 50%;
   position: absolute;
   top: 0;
@@ -1504,7 +1504,7 @@
 }
 
 .popup-consultation-close:hover {
-  background-color: #2B3845;
+  background-color: #2b3845;
 }
 
 .popup-consultation-close:hover path {
@@ -1512,14 +1512,14 @@
 }
 
 .popup-consultation-left {
-  width: calc(100% - 500px);
+  width: 50%;
   padding: 80px 55px;
   border-radius: 30px 0 0 30px;
   background-color: white;
 }
 
 .popup-consultation-title {
-  color: #2B3845;
+  color: #2b3845;
   font-weight: 600;
   font-size: 44px;
   line-height: 26.88px;
@@ -1535,7 +1535,7 @@
 }
 
 .popup-consultation-subtitle {
-  color: #74787F;
+  color: #74787f;
   font-weight: 300;
   font-size: 14px;
   line-height: 17px;
@@ -1547,7 +1547,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
-  color: #74787F;
+  color: #74787f;
   text-align: center;
 }
 
@@ -1570,11 +1570,40 @@
   gap: 10px;
 }
 
+.popup-consultation form .popup-consultation-input {
+  width: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.popup-consultation form .popup-consultation-input:nth-child(3) input {
+  padding-left: 15px;
+}
+
+.popup-consultation form label {
+  position: absolute;
+  z-index: 1;
+  left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
 .popup-consultation form input {
   width: 100%;
   border: 0;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   padding: 15px;
+  padding-left: 50px;
   border-radius: 10px;
   font-weight: 300;
   font-size: 16px;
@@ -1584,42 +1613,45 @@
 }
 
 .popup-consultation form input:focus {
-  background-color: #2B384537;
+  background-color: #2b384537;
 }
 
 .popup-consultation form input::-webkit-input-placeholder {
-  color: #BBBCBE;
+  color: #bbbcbe;
 }
 
 .popup-consultation form input::-moz-placeholder {
-  color: #BBBCBE;
+  color: #bbbcbe;
 }
 
 .popup-consultation form input:-ms-input-placeholder {
-  color: #BBBCBE;
+  color: #bbbcbe;
 }
 
 .popup-consultation form input::-ms-input-placeholder {
-  color: #BBBCBE;
+  color: #bbbcbe;
 }
 
 .popup-consultation form input::placeholder {
-  color: #BBBCBE;
+  color: #bbbcbe;
 }
 
-.popup-consultation form input:nth-last-child(1) {
+.popup-consultation form button {
   margin-top: 10px;
-  background-color: #2B3845;
+  background-color: #2b3845;
   font-weight: 600;
-  font-size: 18.7623px;
-  line-height: 22px;
+  width: 100%;
+  max-width: 400px;
+  padding: 15px;
+  font-size: 22px;
+  line-height: 26px;
+  border-radius: 10px;
   color: white;
   cursor: pointer;
-  margin-bottom: 10px;
 }
 
 .popup-consultation-right {
-  width: 500px;
+  width: 50%;
   height: 100%;
   position: absolute;
   right: 0;
@@ -1674,7 +1706,7 @@
 .popup-brochure-close {
   width: 44px;
   height: 44px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 50%;
   position: absolute;
   top: 0;
@@ -1695,6 +1727,7 @@
   -webkit-transition: 0.2s;
   -o-transition: 0.2s;
   transition: 0.2s;
+  z-index: 1;
 }
 
 .popup-brochure-close path {
@@ -1704,7 +1737,7 @@
 }
 
 .popup-brochure-close:hover {
-  background-color: #2B3845;
+  background-color: #2b3845;
 }
 
 .popup-brochure-close:hover path {
@@ -1712,7 +1745,7 @@
 }
 
 .popup-brochure-left {
-  width: calc(100% - 500px);
+  width: 50%;
   padding: 50px;
   border-radius: 30px 0 0 30px;
   background-color: white;
@@ -1737,7 +1770,7 @@
 }
 
 .popup-brochure-subtitle {
-  color: #74787F;
+  color: #74787f;
   font-weight: 300;
   font-size: 14px;
   line-height: 17px;
@@ -1780,11 +1813,11 @@
 }
 
 .popup-brochure-socials a:hover circle {
-  fill: #37BBFE;
+  fill: #37bbfe;
 }
 
 .popup-brochure-socials a:hover .whats {
-  fill: #5BD066;
+  fill: #5bd066;
 }
 
 .popup-brochure-format {
@@ -1792,7 +1825,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
-  color: #74787F;
+  color: #74787f;
   text-align: center;
 }
 
@@ -1815,11 +1848,40 @@
   gap: 10px;
 }
 
+.popup-brochure form .popup-brochure-input {
+  width: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.popup-brochure form .popup-brochure-input:nth-child(3) input {
+  padding-left: 15px;
+}
+
+.popup-brochure form label {
+  position: absolute;
+  z-index: 1;
+  left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
 .popup-brochure form input {
   width: 100%;
   border: 0;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   padding: 15px;
+  padding-left: 50px;
   border-radius: 10px;
   font-weight: 300;
   font-size: 16px;
@@ -1829,42 +1891,45 @@
 }
 
 .popup-brochure form input:focus {
-  background-color: #2B384537;
+  background-color: #2b384537;
 }
 
 .popup-brochure form input::-webkit-input-placeholder {
-  color: #BBBCBE;
+  color: #bbbcbe;
 }
 
 .popup-brochure form input::-moz-placeholder {
-  color: #BBBCBE;
+  color: #bbbcbe;
 }
 
 .popup-brochure form input:-ms-input-placeholder {
-  color: #BBBCBE;
+  color: #bbbcbe;
 }
 
 .popup-brochure form input::-ms-input-placeholder {
-  color: #BBBCBE;
+  color: #bbbcbe;
 }
 
 .popup-brochure form input::placeholder {
-  color: #BBBCBE;
+  color: #bbbcbe;
 }
 
-.popup-brochure form input:nth-last-child(1) {
+.popup-brochure form button {
   margin-top: 10px;
   background-color: #2B3845;
   font-weight: 600;
-  font-size: 18.7623px;
-  line-height: 22px;
+  width: 100%;
+  max-width: 400px;
+  padding: 15px;
+  font-size: 22px;
+  line-height: 26px;
+  border-radius: 10px;
   color: white;
   cursor: pointer;
-  margin-bottom: 10px;
 }
 
 .popup-brochure-right {
-  width: 500px;
+  width: 50%;
   height: 100%;
   position: absolute;
   right: 0;
@@ -1921,6 +1986,10 @@ body {
   scroll-behavior: smooth;
   -ms-scroll-chaining: none;
       overscroll-behavior: none;
+}
+
+body.modal-open {
+  overflow: hidden;
 }
 
 *::-moz-selection {
@@ -2404,6 +2473,34 @@ a {
   .consultation form {
     max-width: 100%;
   }
+
+  .popup-consultation-con {
+    max-width: 90%;
+  }
+
+  .popup-consultation-left {
+    padding: 50px 30px;
+  }
+
+  .popup-consultation-title {
+    font-size: 38px;
+  }
+
+  .popup-brochure-con {
+    max-width: 90%;
+  }
+
+  .popup-brochure-left {
+    padding: 50px 30px;
+  }
+
+  .popup-brochure-title {
+    font-size: 22px;
+  }
+
+  .popup-brochure-title::first-line {
+    font-size: 38px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -2604,6 +2701,93 @@ a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+
+  .popup-consultation-con {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .popup-consultation-left {
+    padding: 80px 30px;
+    width: 100%;
+    border-radius: 30px;
+    background: -o-linear-gradient(269.97deg, #37485a 21.94%, #ffffff 112.02%);
+    background: linear-gradient(180.03deg, #37485a 21.94%, #ffffff 112.02%);
+  }
+
+  .popup-consultation-title {
+    color: white;
+    text-align: center;
+  }
+
+  .popup-consultation-title::first-line {
+    color: white;
+  }
+
+  .popup-consultation-subtitle {
+    color: white;
+    text-align: center;
+  }
+
+  .popup-consultation form {
+    max-width: 100%;
+  }
+
+  .popup-consultation form button {
+    font-size: 17px;
+    line-height: 21px;
+    max-width: 100%;
+  }
+
+  .popup-consultation-right {
+    display: none;
+  }
+
+  .popup-brochure-con {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .popup-brochure-left {
+    padding: 80px 30px;
+    width: 100%;
+    border-radius: 30px;
+    background: -o-linear-gradient(269.97deg, #37485A 21.94%, #FFFFFF 112.02%);
+    background: linear-gradient(180.03deg, #37485A 21.94%, #FFFFFF 112.02%);
+  }
+
+  .popup-brochure-title {
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+
+  .popup-brochure-title::first-line {
+    color: white;
+  }
+
+  .popup-brochure-subtitle {
+    color: white;
+    text-align: center;
+  }
+
+  .popup-brochure-socials {
+    display: none;
+  }
+
+  .popup-brochure form button {
+    font-size: 17px;
+    line-height: 21px;
+    max-width: 100%;
+  }
+
+  .popup-brochure-right {
+    display: none;
   }
 }
 
