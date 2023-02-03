@@ -3,6 +3,10 @@ export function init() {
     // body paddingTop
     const headerHeight = document.querySelector('.header').offsetHeight
     document.querySelector('.intro').style.marginTop = headerHeight+25+'px'
+    window.addEventListener(('resize'), () => {
+        const headerHeight = document.querySelector('.header').offsetHeight
+        document.querySelector('.intro').style.marginTop = headerHeight+25+'px'
+    })
 
     // header btns
     const headerBtns = document.querySelectorAll('.header-btn')
@@ -34,8 +38,4 @@ export function init() {
             }
         }
     })
-
-    
-
-
 }

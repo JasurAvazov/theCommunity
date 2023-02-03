@@ -69,6 +69,7 @@ export function init() {
       new Swiper(".featuresSwiper", {
         modules: [Pagination],
         centeredSlides: true,
+        spaceBetween: 30,
         speed: 600,
         pagination: {
           el: ".features-pagination",
