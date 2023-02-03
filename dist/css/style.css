@@ -754,14 +754,10 @@
           align-items: center;
 }
 
-.brochure form .brochure-input:nth-child(3) input {
-  padding-left: 15px;
-}
-
 .brochure form label {
   position: absolute;
   z-index: 1;
-  left: 20px;
+  left: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1296,14 +1292,10 @@
           align-items: center;
 }
 
-.consultation form .consultation-input:nth-child(3) input {
-  padding-left: 15px;
-}
-
 .consultation form label {
   position: absolute;
   z-index: 1;
-  left: 20px;
+  left: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1626,14 +1618,10 @@
           align-items: center;
 }
 
-.popup-consultation form .popup-consultation-input:nth-child(3) input {
-  padding-left: 15px;
-}
-
 .popup-consultation form label {
   position: absolute;
   z-index: 1;
-  left: 20px;
+  left: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1904,14 +1892,10 @@
           align-items: center;
 }
 
-.popup-brochure form .popup-brochure-input:nth-child(3) input {
-  padding-left: 15px;
-}
-
 .popup-brochure form label {
   position: absolute;
   z-index: 1;
-  left: 20px;
+  left: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
