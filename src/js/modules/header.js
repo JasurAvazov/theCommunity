@@ -29,22 +29,27 @@ export function init() {
     })
 
 
+
     let scrollBefore = 300;
     const header = document.querySelector('.header')
     window.addEventListener('scroll', (e) => {
-        const scrolled = window.scrollY;
-        if (scrolled > 300){
-            if(scrollBefore > scrolled){
-                if(header.classList.contains('hide')){
-                    header.classList.remove('hide')
-                }
-                scrollBefore = scrolled;
-            }else{
-                scrollBefore = scrolled;
-                if(!header.classList.contains('hide')){
-                    header.classList.add('hide')
+        if (window.matchMedia("(min-width: 992px)").matches) {
+            const scrolled = window.scrollY;
+            if (scrolled > 300){
+                if(scrollBefore > scrolled){
+                    if(header.classList.contains('hide')){
+                        header.classList.remove('hide')
+                    }
+                    scrollBefore = scrolled;
+                }else{
+                    scrollBefore = scrolled;
+                    if(!header.classList.contains('hide')){
+                        header.classList.add('hide')
+                    }
                 }
             }
+        }else{
+            header.classList.remove('hide')
         }
     })
 }
