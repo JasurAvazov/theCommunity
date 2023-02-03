@@ -19,4 +19,22 @@ export function init() {
             delay: 2000
         }
     });
+
+    (function swiperConsultation() {
+        document
+          .querySelectorAll(".consultation .swiper")
+          .forEach(function (el, index) {
+            const swiper= new Swiper(el, {
+              modules: [Pagination],
+              slidesPerView: 1,
+              spaceBetween: 30,
+              // Pagination arrows
+              pagination: {
+                el: ".consultation .swiper-pagination",
+                clickable: true,
+                dynamicBullets: true,
+              },
+            });
+          });
+      })();
 }
