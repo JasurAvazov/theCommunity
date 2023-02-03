@@ -16,14 +16,14 @@
         width: 100%;
         height: 100%;
         img{
-            width: 1000px;
+            width: 900px;
         }
     }
     &-subtitle{
         font-weight: 700;
         font-size: 22px;
         line-height: 116.02%;
-        color: #717F3A;
+        color: #2B3845;
         text-transform: uppercase;
         margin-bottom: 24px;
     }
@@ -40,7 +40,7 @@
             &::before{
                 content: '\B7';
                 margin-right: 8px;
-                color: #717F3A;
+                color: #2B3845;
             }
         }
     }
@@ -69,7 +69,7 @@
             }
             &:nth-last-child(1){
                 margin-top: 10px;
-                background-color: #717F3A;
+                background-color: #2B3845;
                 font-weight: 600;
                 font-size: 22px;
                 line-height: 26px;
