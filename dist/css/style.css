@@ -2474,6 +2474,10 @@ a {
     max-width: 100%;
   }
 
+  .footer-nav {
+    gap: 40px;
+  }
+
   .popup-consultation-con {
     max-width: 90%;
   }
@@ -2536,10 +2540,6 @@ a {
 
   .brochure-books-mob {
     height: 550px;
-  }
-
-  .footer-nav {
-    gap: 40px;
   }
 }
 

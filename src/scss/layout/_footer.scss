@@ -16,7 +16,7 @@
     align-items: center;
     gap: 70px;
     margin-bottom: 50px;
-    @include media(768) {
+    @include media(992) {
       gap: 40px;
     }
     @include media(576) {
