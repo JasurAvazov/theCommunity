@@ -1,6 +1,9 @@
 import Swiper, { Autoplay, EffectCards, EffectFade, Navigation, Pagination } from 'swiper';
 
 export function init() {
+
+    // about
+
     const swiper = new Swiper('.aboutSwiper',{
         modules: [EffectFade, EffectCards, Pagination, Autoplay],
         slidesPerView: 1,
@@ -20,6 +23,8 @@ export function init() {
         }
     });
 
+    // consultation
+
     (function swiperConsultation() {
         document
           .querySelectorAll(".consultation .swiper")
@@ -28,7 +33,6 @@ export function init() {
               modules: [Pagination],
               slidesPerView: 1,
               spaceBetween: 30,
-              // Pagination arrows
               pagination: {
                 el: ".consultation .swiper-pagination",
                 clickable: true,
@@ -37,4 +41,15 @@ export function init() {
             });
           });
       })();
+
+      // key features
+
+      new Swiper(".featuresSwiper", {
+        modules: [Pagination],
+        centeredSlides: true,
+        speed: 600,
+        pagination: {
+          el: ".features-pagination",
+        },
+      });
 }

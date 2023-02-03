@@ -304,9 +304,15 @@
 
 .features {
   margin-top: 100px;
+  overflow-x: hidden;
 }
 
 .features .container {
+  padding: 80px 15px;
+}
+
+.features-desktop {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -316,8 +322,90 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 80px 15px;
-  overflow-x: hidden;
+  gap: 20px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.features-mobile {
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.features-mobile-title {
+  width: 100%;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 80px;
+  color: #343434;
+}
+
+.features-mobile .swiper {
+  width: 100%;
+  padding-bottom: 100px;
+  overflow: visible;
+  width: 100%;
+}
+
+.features-mobile .swiper .swiper-pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.features-mobile .swiper .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+}
+
+.features-mobile .swiper .swiper-pagination-bullet-active {
+  width: 18px;
+  height: 18px;
+  background-color: #2B3845;
+}
+
+.features-mobile .swiper-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 40px;
+}
+
+.features-mobile .swiper-slide svg {
+  width: 160px;
+  height: 153px;
+}
+
+.features-mobile .swiper-slide p {
+  font-weight: 400;
+  font-size: 32.4789px;
+  line-height: 130%;
 }
 
 .features-box {
@@ -1897,6 +1985,26 @@ a {
     font-size: 52px;
   }
 
+  .features .container {
+    padding: 0 15px;
+  }
+
+  .features-box:first-child {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .features-title {
+    width: 100%;
+  }
+
+  .features-title br {
+    display: none;
+  }
+
   .developer-left {
     width: calc(100% - 590px);
     max-width: 650px;
@@ -1923,6 +2031,14 @@ a {
   .intro-btns button {
     font-size: 18px;
     padding: 11px;
+  }
+
+  .features-box {
+    width: calc(33% - 14px);
+  }
+
+  .features-title {
+    text-align: center !important;
   }
 
   .brochure {
@@ -2239,6 +2355,16 @@ a {
 
   .intro-btns li {
     max-width: 300px;
+  }
+
+  .features-desktop {
+    display: none;
+  }
+
+  .features-mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 
   .brochure-books-mob {
