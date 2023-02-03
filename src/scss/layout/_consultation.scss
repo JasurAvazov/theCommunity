@@ -53,7 +53,7 @@
       }
       .swiper-pagination-bullet-active {
         transform: scale(1.5);
-        background: #717f3a;
+        background: #2B3845;
       }
     }
   }
@@ -126,7 +126,7 @@
     font-weight: 700;
     font-size: 22px;
     line-height: 116.02%;
-    color: #717f3a;
+    color: #2B3845;
     text-transform: uppercase;
     margin-bottom: 24px;
     @include media(992) {
@@ -154,7 +154,7 @@
       &::before {
         content: "\B7";
         margin-right: 8px;
-        color: #717f3a;
+        color: #2B3845;
       }
     }
   }
@@ -214,7 +214,7 @@
     }
     button {
       margin-top: 10px;
-      background-color: #717f3a;
+      background-color: #2B3845;
       font-weight: 600;
       width: 100%;
       max-width: 400px;
@@ -242,7 +242,7 @@
     }
     span {
       @include media(992) {
-        color: #717f3a;
+        color: #2B3845;
       }
     }
   }

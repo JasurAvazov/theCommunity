@@ -110,7 +110,7 @@
 }
 
 .header-logo {
-  color: #717F3A;
+  color: #2B3845;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -342,7 +342,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 130%;
-  color: #717F3A;
+  color: #2B3845;
   text-align: center;
   white-space: nowrap;
 }
@@ -563,7 +563,7 @@
   font-weight: 700;
   font-size: 22px;
   line-height: 116.02%;
-  color: #717f3a;
+  color: #2B3845;
   text-transform: uppercase;
   margin-bottom: 24px;
 }
@@ -589,7 +589,7 @@
 .brochure ul p::before {
   content: "·";
   margin-right: 8px;
-  color: #717f3a;
+  color: #2B3845;
 }
 
 .brochure form {
@@ -675,7 +675,7 @@
 
 .brochure form button {
   margin-top: 10px;
-  background-color: #717f3a;
+  background-color: #2B3845;
   font-weight: 600;
   width: 100%;
   max-width: 400px;
@@ -751,7 +751,7 @@
   font-size: 22px;
   line-height: 116.02%;
   text-transform: uppercase;
-  color: #717f3a;
+  color: #2B3845;
   margin-bottom: 24px;
 }
 
@@ -775,7 +775,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 177%;
-  color: #717f3a;
+  color: #2B3845;
   text-decoration: underline;
   width: 100%;
   cursor: pointer;
@@ -796,7 +796,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #717f3a;
+  background-color: #2B3845;
   color: white;
   font-weight: 600;
   font-size: 22px;
@@ -854,7 +854,7 @@
   font-size: 22px;
   line-height: 116.02%;
   text-transform: uppercase;
-  color: #717f3a;
+  color: #2B3845;
   margin-bottom: 24px;
   display: block;
 }
@@ -868,7 +868,7 @@
 }
 
 .developer-title span {
-  color: #717f3a;
+  color: #2B3845;
 }
 
 .developer-title.mobile {
@@ -900,7 +900,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 177%;
-  color: #717f3a;
+  color: #2B3845;
   text-decoration: underline;
   width: 100%;
   cursor: pointer;
@@ -921,7 +921,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #717f3a;
+  background-color: #2B3845;
   color: white;
   font-weight: 600;
   font-size: 22px;
@@ -964,7 +964,7 @@
   font-weight: 700;
   font-size: 25.1623px;
   line-height: 96.5%;
-  color: #717f3a;
+  color: #2B3845;
 }
 
 .developer-item__text {
@@ -1043,7 +1043,7 @@
   -webkit-transform: scale(1.5);
       -ms-transform: scale(1.5);
           transform: scale(1.5);
-  background: #717f3a;
+  background: #2B3845;
 }
 
 .consultation-img__side {
@@ -1101,7 +1101,7 @@
   font-weight: 700;
   font-size: 22px;
   line-height: 116.02%;
-  color: #717f3a;
+  color: #2B3845;
   text-transform: uppercase;
   margin-bottom: 24px;
 }
@@ -1131,7 +1131,7 @@
 .consultation ul p::before {
   content: "·";
   margin-right: 8px;
-  color: #717f3a;
+  color: #2B3845;
 }
 
 .consultation form {
@@ -1217,7 +1217,7 @@
 
 .consultation form button {
   margin-top: 10px;
-  background-color: #717f3a;
+  background-color: #2B3845;
   font-weight: 600;
   width: 100%;
   max-width: 400px;
@@ -1238,7 +1238,7 @@
 }
 
 .footer {
-  background-color: #717f3a;
+  background-color: #2B3845;
 }
 
 .footer .container {
@@ -1416,7 +1416,7 @@
 }
 
 .popup-consultation-close:hover {
-  background-color: #717F3A;
+  background-color: #2B3845;
 }
 
 .popup-consultation-close:hover path {
@@ -1431,7 +1431,7 @@
 }
 
 .popup-consultation-title {
-  color: #717F3A;
+  color: #2B3845;
   font-weight: 600;
   font-size: 44px;
   line-height: 26.88px;
@@ -1496,7 +1496,7 @@
 }
 
 .popup-consultation form input:focus {
-  background-color: #717f3a37;
+  background-color: #2B384537;
 }
 
 .popup-consultation form input::-webkit-input-placeholder {
@@ -1521,7 +1521,7 @@
 
 .popup-consultation form input:nth-last-child(1) {
   margin-top: 10px;
-  background-color: #717F3A;
+  background-color: #2B3845;
   font-weight: 600;
   font-size: 18.7623px;
   line-height: 22px;
@@ -1616,7 +1616,7 @@
 }
 
 .popup-brochure-close:hover {
-  background-color: #717F3A;
+  background-color: #2B3845;
 }
 
 .popup-brochure-close:hover path {
@@ -1741,7 +1741,7 @@
 }
 
 .popup-brochure form input:focus {
-  background-color: #717f3a37;
+  background-color: #2B384537;
 }
 
 .popup-brochure form input::-webkit-input-placeholder {
@@ -1766,7 +1766,7 @@
 
 .popup-brochure form input:nth-last-child(1) {
   margin-top: 10px;
-  background-color: #717F3A;
+  background-color: #2B3845;
   font-weight: 600;
   font-size: 18.7623px;
   line-height: 22px;
@@ -1837,12 +1837,12 @@ body {
 
 *::-moz-selection {
   color: inherit;
-  background-color: #717f3a79;
+  background-color: #2B384579;
 }
 
 *::selection {
   color: inherit;
-  background-color: #717f3a79;
+  background-color: #2B384579;
 }
 
 main {
@@ -1933,6 +1933,10 @@ a {
 }
 
 @media (max-width: 1200px) {
+  .intro-title {
+    font-size: 52px;
+  }
+
   .about-right {
     width: 380px;
   }
@@ -1952,6 +1956,19 @@ a {
 }
 
 @media (max-width: 992px) {
+  .intro-left {
+    width: 90%;
+  }
+
+  .intro-btns li {
+    max-width: 250px;
+  }
+
+  .intro-btns button {
+    font-size: 18px;
+    padding: 11px;
+  }
+
   .about .container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2033,7 +2050,7 @@ a {
 
   .brochure-left {
     width: 100%;
-    background-color: #717f3a;
+    background-color: #2B3845;
     border-bottom-left-radius: 80px;
     padding: 50px 40px 80px;
   }
@@ -2318,11 +2335,31 @@ a {
   }
 
   .consultation-title span {
-    color: #717f3a;
+    color: #2B3845;
   }
 }
 
 @media (max-width: 768px) {
+  .intro-left {
+    width: 100%;
+    background: #2b384590;
+  }
+
+  .intro-title {
+    font-size: 44px;
+    text-align: center;
+  }
+
+  .intro-btns {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .intro-btns li {
+    max-width: 300px;
+  }
+
   .brochure-books-mob {
     height: 550px;
   }
@@ -2428,5 +2465,16 @@ a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+}
+
+@media (max-width: 440px) {
+  .intro-left {
+    padding: 30px;
+  }
+
+  .intro-title {
+    font-size: 32px;
+    margin-bottom: 30px;
   }
 }
