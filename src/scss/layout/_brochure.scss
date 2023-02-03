@@ -193,7 +193,7 @@
       }
     }
   }
-  &-form-btn {
+  &-form-btn{
     width: 100%;
     @include media(992) {
       max-width: 355px;
@@ -201,7 +201,7 @@
       position: absolute;
       bottom: 20px;
       left: 50%;
-      width: 100%;
+      width: calc(100% - 40px);
       transform: translate(-50%, 0);
     }
   }

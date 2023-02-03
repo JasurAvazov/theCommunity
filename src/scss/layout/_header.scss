@@ -44,7 +44,7 @@
             line-height: 17px;
             color: #74787F;
             p{
-                @include media(576){
+                @include media(400){
                     display: none;
                 }
             }
