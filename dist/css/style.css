@@ -2388,7 +2388,7 @@ a {
     position: absolute;
     bottom: 20px;
     left: 50%;
-    width: 100%;
+    width: calc(100% - 40px);
     -webkit-transform: translate(-50%, 0);
         -ms-transform: translate(-50%, 0);
             transform: translate(-50%, 0);
@@ -2625,10 +2625,6 @@ a {
 }
 
 @media (max-width: 576px) {
-  .header-mob a p {
-    display: none;
-  }
-
   .about-title {
     font-size: 32px;
     line-height: 38px;
@@ -2695,6 +2691,7 @@ a {
   .location-btn {
     font-size: 18px;
     line-height: 21px;
+    width: calc(100% - 40px);
   }
 
   .developer-title {
@@ -2878,17 +2875,23 @@ a {
 
 @media (max-width: 440px) {
   .intro-left {
-    padding: 30px;
+    padding: 100px 30px;
   }
 
   .intro-title {
-    font-size: 32px;
-    margin-bottom: 30px;
+    font-size: 40px;
+    margin-bottom: 50px;
   }
 }
 
 @media (max-width: 425px) {
   .brochure-books-mob {
     height: 300px;
+  }
+}
+
+@media (max-width: 400px) {
+  .header-mob a p {
+    display: none;
   }
 }

@@ -21,7 +21,7 @@
             background: #2b384590;
         }
         @include media(440){
-            padding: 30px;
+            padding: 100px 30px;
         }
     }
     &-title{
@@ -39,8 +39,8 @@
             text-align: center;
         }
         @media (max-width: 440px){
-            font-size: 32px;
-            margin-bottom: 30px;
+            font-size: 40px;
+            margin-bottom: 50px;
         }
     }
     &-btns{
