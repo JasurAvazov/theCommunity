@@ -147,14 +147,20 @@
     gap: 10px;
     &__title {
       font-weight: 700;
-      font-size: 25.1623px;
+      font-size: 30px;
       line-height: 96.5%;
       color: #2B3845;
+      @include media(576){
+        font-size: 25px;
+      }
     }
     &__text {
       font-weight: 500;
-      font-size: 12px;
+      font-size: 18px;
       line-height: 96.5%;
+      @include media(576){
+        font-size: 12px;
+      }
     }
   }
   &-right {

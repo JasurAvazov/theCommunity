@@ -514,7 +514,7 @@
   line-height: 116.02%;
   text-transform: uppercase;
   margin-bottom: 24px;
-  color: #717f3a;
+  color: #343434;
   display: block;
 }
 
@@ -682,7 +682,7 @@
 .brochure-books-mob img {
   position: absolute;
   top: 65%;
-  right: -25%;
+  right: -20%;
   -webkit-transform: translate(0, -50%) rotate(-10deg);
       -ms-transform: translate(0, -50%) rotate(-10deg);
           transform: translate(0, -50%) rotate(-10deg);
@@ -695,7 +695,7 @@
   font-weight: 700;
   font-size: 22px;
   line-height: 116.02%;
-  color: #2B3845;
+  color: #2b3845;
   text-transform: uppercase;
   margin-bottom: 24px;
 }
@@ -721,7 +721,7 @@
 .brochure ul p::before {
   content: "·";
   margin-right: 8px;
-  color: #2B3845;
+  color: #2b3845;
 }
 
 .brochure form {
@@ -807,7 +807,7 @@
 
 .brochure form button {
   margin-top: 10px;
-  background-color: #2B3845;
+  background-color: #2b3845;
   font-weight: 600;
   width: 100%;
   max-width: 400px;
@@ -1094,14 +1094,14 @@
 
 .developer-item__title {
   font-weight: 700;
-  font-size: 25.1623px;
+  font-size: 30px;
   line-height: 96.5%;
   color: #2B3845;
 }
 
 .developer-item__text {
   font-weight: 500;
-  font-size: 12px;
+  font-size: 18px;
   line-height: 96.5%;
 }
 
@@ -1519,7 +1519,7 @@
 .popup-consultation-close {
   width: 44px;
   height: 44px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 50%;
   position: absolute;
   top: 0;
@@ -1549,7 +1549,7 @@
 }
 
 .popup-consultation-close:hover {
-  background-color: #2B3845;
+  background-color: #2b3845;
 }
 
 .popup-consultation-close:hover path {
@@ -1557,14 +1557,14 @@
 }
 
 .popup-consultation-left {
-  width: calc(100% - 500px);
+  width: 50%;
   padding: 80px 55px;
   border-radius: 30px 0 0 30px;
   background-color: white;
 }
 
 .popup-consultation-title {
-  color: #2B3845;
+  color: #2b3845;
   font-weight: 600;
   font-size: 44px;
   line-height: 26.88px;
@@ -1580,7 +1580,7 @@
 }
 
 .popup-consultation-subtitle {
-  color: #74787F;
+  color: #74787f;
   font-weight: 300;
   font-size: 14px;
   line-height: 17px;
@@ -1592,7 +1592,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
-  color: #74787F;
+  color: #74787f;
   text-align: center;
 }
 
@@ -1615,11 +1615,40 @@
   gap: 10px;
 }
 
+.popup-consultation form .popup-consultation-input {
+  width: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.popup-consultation form .popup-consultation-input:nth-child(3) input {
+  padding-left: 15px;
+}
+
+.popup-consultation form label {
+  position: absolute;
+  z-index: 1;
+  left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
 .popup-consultation form input {
   width: 100%;
   border: 0;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   padding: 15px;
+  padding-left: 50px;
   border-radius: 10px;
   font-weight: 300;
   font-size: 16px;
@@ -1629,42 +1658,45 @@
 }
 
 .popup-consultation form input:focus {
-  background-color: #2B384537;
+  background-color: #2b384537;
 }
 
 .popup-consultation form input::-webkit-input-placeholder {
-  color: #BBBCBE;
+  color: #bbbcbe;
 }
 
 .popup-consultation form input::-moz-placeholder {
-  color: #BBBCBE;
+  color: #bbbcbe;
 }
 
 .popup-consultation form input:-ms-input-placeholder {
-  color: #BBBCBE;
+  color: #bbbcbe;
 }
 
 .popup-consultation form input::-ms-input-placeholder {
-  color: #BBBCBE;
+  color: #bbbcbe;
 }
 
 .popup-consultation form input::placeholder {
-  color: #BBBCBE;
+  color: #bbbcbe;
 }
 
-.popup-consultation form input:nth-last-child(1) {
+.popup-consultation form button {
   margin-top: 10px;
-  background-color: #2B3845;
+  background-color: #2b3845;
   font-weight: 600;
-  font-size: 18.7623px;
-  line-height: 22px;
+  width: 100%;
+  max-width: 400px;
+  padding: 15px;
+  font-size: 22px;
+  line-height: 26px;
+  border-radius: 10px;
   color: white;
   cursor: pointer;
-  margin-bottom: 10px;
 }
 
 .popup-consultation-right {
-  width: 500px;
+  width: 50%;
   height: 100%;
   position: absolute;
   right: 0;
@@ -1719,7 +1751,7 @@
 .popup-brochure-close {
   width: 44px;
   height: 44px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 50%;
   position: absolute;
   top: 0;
@@ -1740,6 +1772,7 @@
   -webkit-transition: 0.2s;
   -o-transition: 0.2s;
   transition: 0.2s;
+  z-index: 1;
 }
 
 .popup-brochure-close path {
@@ -1749,7 +1782,7 @@
 }
 
 .popup-brochure-close:hover {
-  background-color: #2B3845;
+  background-color: #2b3845;
 }
 
 .popup-brochure-close:hover path {
@@ -1757,7 +1790,7 @@
 }
 
 .popup-brochure-left {
-  width: calc(100% - 500px);
+  width: 50%;
   padding: 50px;
   border-radius: 30px 0 0 30px;
   background-color: white;
@@ -1782,7 +1815,7 @@
 }
 
 .popup-brochure-subtitle {
-  color: #74787F;
+  color: #74787f;
   font-weight: 300;
   font-size: 14px;
   line-height: 17px;
@@ -1825,11 +1858,11 @@
 }
 
 .popup-brochure-socials a:hover circle {
-  fill: #37BBFE;
+  fill: #37bbfe;
 }
 
 .popup-brochure-socials a:hover .whats {
-  fill: #5BD066;
+  fill: #5bd066;
 }
 
 .popup-brochure-format {
@@ -1837,7 +1870,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
-  color: #74787F;
+  color: #74787f;
   text-align: center;
 }
 
@@ -1860,11 +1893,40 @@
   gap: 10px;
 }
 
+.popup-brochure form .popup-brochure-input {
+  width: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.popup-brochure form .popup-brochure-input:nth-child(3) input {
+  padding-left: 15px;
+}
+
+.popup-brochure form label {
+  position: absolute;
+  z-index: 1;
+  left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
 .popup-brochure form input {
   width: 100%;
   border: 0;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   padding: 15px;
+  padding-left: 50px;
   border-radius: 10px;
   font-weight: 300;
   font-size: 16px;
@@ -1874,42 +1936,45 @@
 }
 
 .popup-brochure form input:focus {
-  background-color: #2B384537;
+  background-color: #2b384537;
 }
 
 .popup-brochure form input::-webkit-input-placeholder {
-  color: #BBBCBE;
+  color: #bbbcbe;
 }
 
 .popup-brochure form input::-moz-placeholder {
-  color: #BBBCBE;
+  color: #bbbcbe;
 }
 
 .popup-brochure form input:-ms-input-placeholder {
-  color: #BBBCBE;
+  color: #bbbcbe;
 }
 
 .popup-brochure form input::-ms-input-placeholder {
-  color: #BBBCBE;
+  color: #bbbcbe;
 }
 
 .popup-brochure form input::placeholder {
-  color: #BBBCBE;
+  color: #bbbcbe;
 }
 
-.popup-brochure form input:nth-last-child(1) {
+.popup-brochure form button {
   margin-top: 10px;
   background-color: #2B3845;
   font-weight: 600;
-  font-size: 18.7623px;
-  line-height: 22px;
+  width: 100%;
+  max-width: 400px;
+  padding: 15px;
+  font-size: 22px;
+  line-height: 26px;
+  border-radius: 10px;
   color: white;
   cursor: pointer;
-  margin-bottom: 10px;
 }
 
 .popup-brochure-right {
-  width: 500px;
+  width: 50%;
   height: 100%;
   position: absolute;
   right: 0;
@@ -1966,6 +2031,10 @@ body {
   scroll-behavior: smooth;
   -ms-scroll-chaining: none;
       overscroll-behavior: none;
+}
+
+body.modal-open {
+  overflow: hidden;
 }
 
 *::-moz-selection {
@@ -2243,7 +2312,7 @@ a {
 
   .brochure-left {
     width: 100%;
-    background-color: #2B3845;
+    background-color: #2b3845;
     border-bottom-left-radius: 80px;
     padding: 50px 40px 80px;
   }
@@ -2262,6 +2331,10 @@ a {
 
   .brochure-subtitle {
     display: none;
+  }
+
+  .brochure ul {
+    margin-bottom: 30px;
   }
 
   .brochure ul p {
@@ -2432,7 +2505,7 @@ a {
         -ms-flex-direction: column;
             flex-direction: column;
     gap: 50px;
-    padding: 25px 20px;
+    padding: 25px 20px 80px;
   }
 
   .consultation-left {
@@ -2478,13 +2551,186 @@ a {
     margin-bottom: 25px;
   }
 
+  .consultation form {
+    max-width: 100%;
+  }
+
+  .footer-nav {
+    gap: 40px;
+  }
+
+  .popup-consultation-con {
+    max-width: 90%;
+  }
+
+  .popup-consultation-left {
+    padding: 50px 30px;
+  }
+
+  .popup-consultation-title {
+    font-size: 38px;
+  }
+
+  .popup-brochure-con {
+    max-width: 90%;
+  }
+
+  .popup-brochure-left {
+    padding: 50px 30px;
+  }
+
+  .popup-brochure-title {
+    font-size: 22px;
+  }
+
+  .popup-brochure-title::first-line {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro-left {
+    width: 100%;
+    background: #2b384590;
+  }
+
+  .intro-title {
+    font-size: 44px;
+    text-align: center;
+  }
+
+  .intro-btns {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .intro-btns li {
+    max-width: 300px;
+  }
+
+  .features-desktop {
+    display: none;
+  }
+
+  .features-mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .brochure-books-mob {
+    height: 550px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header-mob a p {
+    display: none;
+  }
+
+  .about-title {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .about-p {
+    font-size: 16px;
+    line-height: 177%;
+    margin-bottom: 10px;
+  }
+
+  .about-p span {
+    font-size: 16px;
+    line-height: 177%;
+  }
+
+  .about-btn__mob {
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 80px;
+  }
+
+  .brochure-left {
+    padding: 50px 20px 80px;
+  }
+
+  .brochure-books-mob {
+    height: 350px;
+  }
+
+  .brochure-books-mob img {
+    top: 60%;
+  }
+
+  .brochure ul p {
+    font-size: 14px;
+    line-height: 96.5%;
+  }
+
+  .brochure form {
+    max-width: 300px;
+  }
+
+  .brochure-title {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .location-title {
+    font-size: 32px;
+    line-height: 116.02%;
+  }
+
+  .location-p {
+    font-size: 16px;
+    line-height: 130.5%;
+  }
+
+  .location-p span {
+    font-size: 16px;
+    line-height: 130.5%;
+  }
+
+  .location-btn {
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .developer-title {
+    font-size: 32px;
+  }
+
+  .developer-subtitle-item {
+    font-size: 24px;
+    padding: 25px 0;
+  }
+
+  .developer-p {
+    font-size: 16px;
+    line-height: 177%;
+  }
+
+  .developer-p span {
+    font-size: 16px;
+    line-height: 177%;
+  }
+
+  .developer-item__title {
+    font-size: 25px;
+  }
+
+  .developer-item__text {
+    font-size: 12px;
+  }
+
+  .developer-right {
+    height: 320px;
+  }
+
   .consultation ul p {
     font-size: 14px;
     line-height: 127.02%;
-  }
-
-  .consultation form {
-    max-width: 100%;
   }
 
   .consultation form input {
@@ -2530,138 +2776,6 @@ a {
   .consultation-title span {
     color: #2B3845;
   }
-}
-
-@media (max-width: 768px) {
-  .intro-left {
-    width: 100%;
-    background: #2b384590;
-  }
-
-  .intro-title {
-    font-size: 44px;
-    text-align: center;
-  }
-
-  .intro-btns {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-
-  .intro-btns li {
-    max-width: 300px;
-  }
-
-  .features-desktop {
-    display: none;
-  }
-
-  .features-mobile {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-
-  .brochure-books-mob {
-    height: 550px;
-  }
-
-  .footer-nav {
-    gap: 40px;
-  }
-}
-
-@media (max-width: 576px) {
-  .header-mob a p {
-    display: none;
-  }
-
-  .about-title {
-    font-size: 32px;
-    line-height: 38px;
-  }
-
-  .about-p {
-    font-size: 16px;
-    line-height: 177%;
-    margin-bottom: 10px;
-  }
-
-  .about-p span {
-    font-size: 16px;
-    line-height: 177%;
-  }
-
-  .about-btn__mob {
-    font-size: 18px;
-    line-height: 21px;
-    margin-top: 80px;
-  }
-
-  .brochure-left {
-    padding: 50px 20px 80px;
-  }
-
-  .brochure-books-mob {
-    height: 350px;
-  }
-
-  .brochure-books-mob img {
-    top: 67%;
-  }
-
-  .brochure ul p {
-    font-size: 14px;
-    line-height: 96.5%;
-  }
-
-  .brochure form {
-    max-width: 300px;
-  }
-
-  .location-title {
-    font-size: 32px;
-    line-height: 116.02%;
-  }
-
-  .location-p {
-    font-size: 16px;
-    line-height: 130.5%;
-  }
-
-  .location-p span {
-    font-size: 16px;
-    line-height: 130.5%;
-  }
-
-  .location-btn {
-    font-size: 18px;
-    line-height: 21px;
-  }
-
-  .developer-title {
-    font-size: 32px;
-  }
-
-  .developer-subtitle-item {
-    font-size: 24px;
-    padding: 25px 0;
-  }
-
-  .developer-p {
-    font-size: 16px;
-    line-height: 177%;
-  }
-
-  .developer-p span {
-    font-size: 16px;
-    line-height: 177%;
-  }
-
-  .developer-right {
-    height: 320px;
-  }
 
   .footer .container {
     padding: 100px 15px;
@@ -2673,6 +2787,93 @@ a {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+
+  .popup-consultation-con {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .popup-consultation-left {
+    padding: 80px 30px;
+    width: 100%;
+    border-radius: 30px;
+    background: -o-linear-gradient(269.97deg, #37485a 21.94%, #ffffff 112.02%);
+    background: linear-gradient(180.03deg, #37485a 21.94%, #ffffff 112.02%);
+  }
+
+  .popup-consultation-title {
+    color: white;
+    text-align: center;
+  }
+
+  .popup-consultation-title::first-line {
+    color: white;
+  }
+
+  .popup-consultation-subtitle {
+    color: white;
+    text-align: center;
+  }
+
+  .popup-consultation form {
+    max-width: 100%;
+  }
+
+  .popup-consultation form button {
+    font-size: 17px;
+    line-height: 21px;
+    max-width: 100%;
+  }
+
+  .popup-consultation-right {
+    display: none;
+  }
+
+  .popup-brochure-con {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .popup-brochure-left {
+    padding: 80px 30px;
+    width: 100%;
+    border-radius: 30px;
+    background: -o-linear-gradient(269.97deg, #37485A 21.94%, #FFFFFF 112.02%);
+    background: linear-gradient(180.03deg, #37485A 21.94%, #FFFFFF 112.02%);
+  }
+
+  .popup-brochure-title {
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+
+  .popup-brochure-title::first-line {
+    color: white;
+  }
+
+  .popup-brochure-subtitle {
+    color: white;
+    text-align: center;
+  }
+
+  .popup-brochure-socials {
+    display: none;
+  }
+
+  .popup-brochure form button {
+    font-size: 17px;
+    line-height: 21px;
+    max-width: 100%;
+  }
+
+  .popup-brochure-right {
+    display: none;
+  }
 }
 
 @media (max-width: 440px) {
@@ -2683,5 +2884,11 @@ a {
   .intro-title {
     font-size: 32px;
     margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 425px) {
+  .brochure-books-mob {
+    height: 300px;
   }
 }

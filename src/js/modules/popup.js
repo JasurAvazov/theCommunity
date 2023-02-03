@@ -15,11 +15,13 @@ export function init(){
 
     consultClose.addEventListener('click',() => {
         consult.style.display = 'none'
+        document.body.classList.remove("modal-open");
     })
 
     consultOpen?.forEach(el => {
         el.addEventListener('click',() => {
             consult.style.display = 'flex'
+            document.body.classList.add("modal-open");
         })
     })
 
@@ -38,12 +40,19 @@ export function init(){
 
     brochureClose.addEventListener('click',() => {
         brochure.style.display = 'none'
+        document.body.classList.remove("modal-open");
     })
 
     brochureOpen?.forEach(el => {
         el.addEventListener('click',() => {
             brochure.style.display = 'flex'
+            document.body.classList.add("modal-open");
         })
     })
+
+    // setTimeout(() => {
+    //     brochure.style.display = 'flex'
+    //     document.body.classList.add("modal-open");
+    //   }, 40000);
 
 }

@@ -7,7 +7,7 @@
     @include media(992) {
       flex-direction: column;
       gap: 50px;
-      padding: 25px 20px;
+      padding: 25px 20px 80px;
     }
   }
   &-left {
@@ -147,7 +147,7 @@
       font-weight: 300;
       font-size: 24px;
       line-height: 127.02%;
-      @include media(992) {
+      @include media(576) {
         font-size: 14px;
         line-height: 127.02%;
       }
@@ -200,13 +200,13 @@
       line-height: 19px;
       caret-color: black;
       position: relative;
-      @include media(992) {
+      @include media(576) {
         font-size: 12px;
         line-height: 15px;
       }
       &::placeholder {
         color: #bbbcbe;
-        @include media(992) {
+        @include media(576) {
           font-size: 12px;
           line-height: 15px;
         }
@@ -224,7 +224,7 @@
       border-radius: 10px;
       color: white;
       cursor: pointer;
-      @include media(992) {
+      @include media(576) {
         font-size: 17px;
         line-height: 21px;
         max-width: 100%;
@@ -237,11 +237,11 @@
     line-height: 116.02%;
     color: #343434;
     margin-bottom: 15px;
-    @include media(992) {
+    @include media(576) {
       font-size: 32px;
     }
     span {
-      @include media(992) {
+      @include media(576) {
         color: #2B3845;
       }
     }
