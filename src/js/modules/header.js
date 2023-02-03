@@ -1,11 +1,16 @@
 export function init() {
 
     // body paddingTop
-
+    if (window.matchMedia("(max-width: 992px)").matches) {
+        document.querySelector('.intro').style.marginTop = '20px'
+    } else {
+        const headerHeight = document.querySelector('.header').offsetHeight
+        document.querySelector('.intro').style.marginTop = headerHeight+25+'px'
+    }
     window.addEventListener('resize',() => {
         if (window.matchMedia("(max-width: 992px)").matches) {
             document.querySelector('.intro').style.marginTop = '20px'
-        }else{
+        } else {
             const headerHeight = document.querySelector('.header').offsetHeight
             document.querySelector('.intro').style.marginTop = headerHeight+25+'px'
         }
