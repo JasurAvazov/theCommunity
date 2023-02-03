@@ -9,7 +9,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    @include media(1400){
+    @include media(1400) {
       padding: 0 15px;
     }
     @include media(992) {
@@ -24,11 +24,11 @@
     width: 535px;
     @include media(992) {
       width: 100%;
-      background-color: #2B3845;
+      background-color: #2b3845;
       border-bottom-left-radius: 80px;
       padding: 50px 40px 80px;
     }
-    @include media(576){
+    @include media(576) {
       padding: 50px 20px 80px;
     }
   }
@@ -48,7 +48,7 @@
   &-books-mob {
     height: 400px;
     display: none;
-    @include media(992){
+    @include media(992) {
       display: block;
     }
     @include media(768) {
@@ -57,10 +57,13 @@
     @include media(576) {
       height: 350px;
     }
+    @media (max-width: 425px) {
+      height: 300px;
+    }
     img {
       position: absolute;
       top: 65%;
-      right: -25%;
+      right: -20%;
       transform: translate(0, -50%) rotate(-10deg);
       width: 100%;
       object-fit: cover;
@@ -68,7 +71,7 @@
         top: 60%;
       }
       @include media(576) {
-        top: 67%;
+        top: 60%;
       }
     }
   }
@@ -76,7 +79,7 @@
     font-weight: 700;
     font-size: 22px;
     line-height: 116.02%;
-    color: #2B3845;
+    color: #2b3845;
     text-transform: uppercase;
     margin-bottom: 24px;
     @include media(992) {
@@ -88,6 +91,9 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 70px;
+    @include media(992){
+      margin-bottom: 30px;
+    }
     p {
       color: #74787f;
       font-weight: 400;
@@ -103,7 +109,7 @@
       &::before {
         content: "\B7";
         margin-right: 8px;
-        color: #2B3845;
+        color: #2b3845;
         @include media(992) {
           color: white;
         }
@@ -118,8 +124,8 @@
     justify-content: flex-start;
     align-items: flex-start;
     gap: 10px;
-    @include media(576){
-        max-width: 300px;
+    @include media(576) {
+      max-width: 300px;
     }
     .brochure-input {
       width: 100%;
@@ -170,7 +176,7 @@
     }
     button {
       margin-top: 10px;
-      background-color: #2B3845;
+      background-color: #2b3845;
       font-weight: 600;
       width: 100%;
       max-width: 400px;
@@ -189,7 +195,7 @@
   }
   &-form-btn {
     width: 100%;
-    @include media(992){
+    @include media(992) {
       max-width: 355px;
       margin: 0 auto;
       position: absolute;
@@ -219,6 +225,10 @@
     margin-bottom: 15px;
     @include media(992) {
       color: white;
+    }
+    @include media(576) {
+      font-size: 32px;
+      line-height: 38px;
     }
   }
 }

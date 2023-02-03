@@ -550,7 +550,7 @@
 .brochure-books-mob img {
   position: absolute;
   top: 65%;
-  right: -25%;
+  right: -20%;
   -webkit-transform: translate(0, -50%) rotate(-10deg);
       -ms-transform: translate(0, -50%) rotate(-10deg);
           transform: translate(0, -50%) rotate(-10deg);
@@ -563,7 +563,7 @@
   font-weight: 700;
   font-size: 22px;
   line-height: 116.02%;
-  color: #2B3845;
+  color: #2b3845;
   text-transform: uppercase;
   margin-bottom: 24px;
 }
@@ -589,7 +589,7 @@
 .brochure ul p::before {
   content: "·";
   margin-right: 8px;
-  color: #2B3845;
+  color: #2b3845;
 }
 
 .brochure form {
@@ -675,7 +675,7 @@
 
 .brochure form button {
   margin-top: 10px;
-  background-color: #2B3845;
+  background-color: #2b3845;
   font-weight: 600;
   width: 100%;
   max-width: 400px;
@@ -962,14 +962,14 @@
 
 .developer-item__title {
   font-weight: 700;
-  font-size: 25.1623px;
+  font-size: 30px;
   line-height: 96.5%;
   color: #2B3845;
 }
 
 .developer-item__text {
   font-weight: 500;
-  font-size: 12px;
+  font-size: 18px;
   line-height: 96.5%;
 }
 
@@ -2050,7 +2050,7 @@ a {
 
   .brochure-left {
     width: 100%;
-    background-color: #2B3845;
+    background-color: #2b3845;
     border-bottom-left-radius: 80px;
     padding: 50px 40px 80px;
   }
@@ -2069,6 +2069,10 @@ a {
 
   .brochure-subtitle {
     display: none;
+  }
+
+  .brochure ul {
+    margin-bottom: 30px;
   }
 
   .brochure ul p {
@@ -2239,7 +2243,7 @@ a {
         -ms-flex-direction: column;
             flex-direction: column;
     gap: 50px;
-    padding: 25px 20px;
+    padding: 25px 20px 80px;
   }
 
   .consultation-left {
@@ -2285,57 +2289,8 @@ a {
     margin-bottom: 25px;
   }
 
-  .consultation ul p {
-    font-size: 14px;
-    line-height: 127.02%;
-  }
-
   .consultation form {
     max-width: 100%;
-  }
-
-  .consultation form input {
-    font-size: 12px;
-    line-height: 15px;
-  }
-
-  .consultation form input::-webkit-input-placeholder {
-    font-size: 12px;
-    line-height: 15px;
-  }
-
-  .consultation form input::-moz-placeholder {
-    font-size: 12px;
-    line-height: 15px;
-  }
-
-  .consultation form input:-ms-input-placeholder {
-    font-size: 12px;
-    line-height: 15px;
-  }
-
-  .consultation form input::-ms-input-placeholder {
-    font-size: 12px;
-    line-height: 15px;
-  }
-
-  .consultation form input::placeholder {
-    font-size: 12px;
-    line-height: 15px;
-  }
-
-  .consultation form button {
-    font-size: 17px;
-    line-height: 21px;
-    max-width: 100%;
-  }
-
-  .consultation-title {
-    font-size: 32px;
-  }
-
-  .consultation-title span {
-    color: #2B3845;
   }
 }
 
@@ -2401,7 +2356,7 @@ a {
   }
 
   .brochure-books-mob img {
-    top: 67%;
+    top: 60%;
   }
 
   .brochure ul p {
@@ -2411,6 +2366,11 @@ a {
 
   .brochure form {
     max-width: 300px;
+  }
+
+  .brochure-title {
+    font-size: 32px;
+    line-height: 38px;
   }
 
   .location-title {
@@ -2452,8 +2412,65 @@ a {
     line-height: 177%;
   }
 
+  .developer-item__title {
+    font-size: 25px;
+  }
+
+  .developer-item__text {
+    font-size: 12px;
+  }
+
   .developer-right {
     height: 320px;
+  }
+
+  .consultation ul p {
+    font-size: 14px;
+    line-height: 127.02%;
+  }
+
+  .consultation form input {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .consultation form input::-webkit-input-placeholder {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .consultation form input::-moz-placeholder {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .consultation form input:-ms-input-placeholder {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .consultation form input::-ms-input-placeholder {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .consultation form input::placeholder {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .consultation form button {
+    font-size: 17px;
+    line-height: 21px;
+    max-width: 100%;
+  }
+
+  .consultation-title {
+    font-size: 32px;
+  }
+
+  .consultation-title span {
+    color: #2B3845;
   }
 
   .footer .container {
@@ -2476,5 +2493,11 @@ a {
   .intro-title {
     font-size: 32px;
     margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 425px) {
+  .brochure-books-mob {
+    height: 300px;
   }
 }
