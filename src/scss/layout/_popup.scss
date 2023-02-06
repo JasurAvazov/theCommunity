@@ -134,7 +134,7 @@
       label {
         position: absolute;
         z-index: 1;
-        left: 10px;
+        left: 15px;
         display: flex;
         align-items: center;
         height: 100%;
@@ -353,16 +353,11 @@
         position: relative;
         display: flex;
         align-items: center;
-        // &:nth-child(3){
-        //   input{
-        //     padding-left: 15px;
-        //   }
-        // }
       }
       label {
         position: absolute;
         z-index: 1;
-        left: 10px;
+        left: 15px;
         display: flex;
         align-items: center;
         height: 100%;

@@ -29,8 +29,6 @@ export function init() {
         })
     })
 
-
-
     let scrollBefore = 300;
     const header = document.querySelector('.header')
     window.addEventListener('scroll', (e) => {

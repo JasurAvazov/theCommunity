@@ -757,7 +757,7 @@
 .brochure form label {
   position: absolute;
   z-index: 1;
-  left: 10px;
+  left: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1293,7 +1293,7 @@
 .consultation form label {
   position: absolute;
   z-index: 1;
-  left: 10px;
+  left: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1653,7 +1653,7 @@
 .popup-consultation form label {
   position: absolute;
   z-index: 1;
-  left: 10px;
+  left: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1927,7 +1927,7 @@
 .popup-brochure form label {
   position: absolute;
   z-index: 1;
-  left: 10px;
+  left: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
