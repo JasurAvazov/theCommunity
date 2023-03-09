@@ -10,7 +10,7 @@
     transition: .3s ease-in-out;
     @include media(992){
         top: auto;
-        bottom: 0px;
+        bottom: -1px;
         padding-bottom: 1px;
         transform: translateY(0);
         border-radius: 35px 35px 0 0;
